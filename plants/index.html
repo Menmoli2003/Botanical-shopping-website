@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+             <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+             <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+          <link rel="stylesheet" href="style.css">
+
+
+        <title>BOTANICAL SHOP</title>
+    </head>
+    <body>
+        
+        <header style="background-color:seagreen" class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <img src="img/favicon.png"></i> Envirogreen
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li classs="nav_item">
+                        <a href="#signup" class="nav__link">SignUp</a>
+                        </li>
+<li classs="nav_item">
+                        <a href="#signin" class="nav__link">Signin</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">Products</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#ToOrder" class="nav__link">ToOrder</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#faqs" class="nav__link">FAQs</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Contact Us</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+                    
+                    
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <section class="signup" id="signup">
+                    <div class="regform">
+                        <h1>Signup</h1>
+                        <form action="">
+                        <div class="input">
+                            <label for="name" class="textlabel">User Name</label>
+                            <input type="text" id="name">
+                        </div>
+                        <div class="input">
+                            <label for="email" class="textlabel">Email</label>
+                            <input type="email" id="email">
+                        </div>
+                        <div class="input">
+                            <label for="pass" class="textlabel">password</label>
+                            <input type="Password" id="pass">
+                        </div>
+                        <div class="radio">
+                        <input type="radio" name="gender" id="male">
+                        <label for="male">male</label>
+                        <input type="radio" name="gender" id="female">
+                        <label for="female">female</label>
+                        </div>
+                        <div class="btn">
+                        <a href="#signin" class="button button--flex">
+                            Register<i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+<br>
+                        
+                        <a href="#signin" class="" style="color:red  ">
+                        Already have an account</a>                        
+                    </div>
+                    </form>
+                    </div>
+                </section>
+
+
+
+  
+
+<section class="signin" id="signin">
+                    <div class="regform">
+                        <h1>SignIn</h1>
+                        <form action="">
+                        <div class="input">
+                            <label for="email" class="textlabel">Email</label>
+                            <input type="email" id="email">
+                        </div>
+                        <div class="input">
+                            <label for="pass" class="textlabel">password</label>
+                            <input type="Password" id="pass">
+                        </div>
+                        <div class="btn">
+                        <a href="#home" class="button button--flex">
+                            Submit<i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+<br>
+     
+                    </div>
+                    </form>
+                    </div>
+                </section>
+           
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <img src="img/home.png" alt="" class="home__img">
+
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            Plants will make <br> your life better
+                        </h1>
+                        <p class="home__description">
+                            <b>Create incredible plant design for your offices or apartments. 
+                            Add Freshness to your new ideas.</b>
+                        </p>
+                        <a href="#about" class="button button--flex">
+                            Explore <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                    </div>
+                    <div class="home__social">
+                        <span class="home__social-follow">Follow Us</span>
+
+                        <div class="home__social-links">
+                            <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+           
+            <section class="about section container" id="about">
+                <div class="about__container grid">
+                    <img src="img/about.png" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <h2 class="section__title about__title">
+                            Who we really are & <br> why choose us
+                        </h2>
+
+                        <p class="about__description">
+                            We have over 4000+ unbiased reviews and our customers 
+                            trust our plant process and delivery service every time
+                        </p>
+
+                        <div class="about__details">
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                We always deliver on time.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                We give you guides to protect and care for your plants.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                We always come over for a check-up after sale.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                100% money back guaranteed when damage occur.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Always we give 20%  offer as discount.
+                            </p>
+                        </div>
+
+                        <a href="#products" class="button--link button--flex">
+                            Shop Now <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="steps section container" id="steps">
+                <div class="steps__bg">
+                    <h2 class="section__title-center steps__title">
+                        Steps to start your <br> plants off right
+                    </h2>
+
+                    <div class="steps__container grid">
+                        <div class="steps__card">
+                            <div class="steps__card-number">01</div>
+                            <h3 class="steps__card-title">Choose Plant</h3>
+                            <p class="steps__card-description">
+                                We have several varieties plants you can choose from.
+                            </p>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number">02</div>
+                            <h3 class="steps__card-title">Place an order</h3>
+                            <p class="steps__card-description">
+                                Once your order is set, we move to the next step which is the shipping.
+                            </p>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number">03</div>
+                            <h3 class="steps__card-title">Get plants delivered</h3>
+                            <p class="steps__card-description">
+                                Our delivery process is easy, you receive the plant direct to your door.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+           
+            <section class="product section container" id="products">
+                <h2 class="section__title-center">
+                    Check out our <br> products
+                </h2>
+
+                <p class="product__description">
+                    Here are some selected plants from our showroom, all are in excellent 
+                    shape and has a long life span. Buy and enjoy best quality.
+                </p>
+
+                <div class="product__container grid">
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                       <a href="#ToOrder"><img src="img/product1.png" alt="" class="product__img"></a> 
+                      <h3 class="product__title">Cacti Plant</h3>
+                        <span class="product__price">Rs:299</span>
+
+                        <button class="button--flex product__button">
+                           <a href="#ToOrder"><i class="ri-shopping-bag-line"  id="colour"></i></a>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <a href="#ToOrder"><img src="img/product2.png" alt="" class="product__img"></a>
+
+                        <h3 class="product__title">Cactus Plant</h3>
+                        <span class="product__price">Rs:169</span>
+
+                        <button class="button--flex product__button">
+                            <a href="#ToOrder"><i class="ri-shopping-bag-line" id="colour"></i></a>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <a href="#ToOrder"><img src="img/product3.png" alt="" class="product__img"></a>
+
+                        <h3 class="product__title">Aloe Vera Plant</h3>
+                        <span class="product__price">Rs:225</span>
+
+                        <button class="button--flex product__button">
+                           <a href="#ToOrder"><i class="ri-shopping-bag-line" id="colour" ></i></a>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <a href="#ToOrder"><img src="img/product4.png" alt="" class="product__img"></a>
+
+                        <h3 class="product__title">Succulent Plant</h3>
+                        <span class="product__price">Rs:450</span>
+
+                        <button class="button--flex product__button">
+                           <a href="#ToOrder"><i class="ri-shopping-bag-line"  id="colour"></i></a>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <a href="#ToOrder"><img src="img/product5.png" alt="" class="product__img"></a>
+
+                        <h3 class="product__title">Aloe vera type2</h3>
+                        <span class="product__price">Rs:99</span>
+
+                        <button class="button--flex product__button">
+                           <a href="#ToOrder"><i class="ri-shopping-bag-line" id="colour"></i></a>
+                        </button>
+                    </article>
+                    
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <a href="#ToOrder"><img src="img/product6.png" alt="" class="product__img"></a>
+
+                        <h3 class="product__title">Decorative plant1</h3>
+                        <span class="product__price">Rs:199</span>
+
+                        <button class="button--flex product__button">
+                            <a href="#ToOrder"><i class="ri-shopping-bag-line" id="colour"></i></a>
+                        </button>
+                    </article>
+                     
+                      <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <a href="#ToOrder"><img src="img/product7.png" alt="" class="product__img"></a>
+
+                        <h3 class="product__title">Decorative plant1</h3>
+                        <span class="product__price">Rs:199</span>
+
+                        <button class="button--flex product__button">
+                            <a href="#ToOrder"><i class="ri-shopping-bag-line"  id="colour"></i></a>
+                        </button>
+                    </article>
+
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <a href="#ToOrder"><img src="img/product8.png" alt="" class="product__img"></a>
+
+                        <h3 class="product__title">poinsettia plant</h3>
+                        <span class="product__price">Rs:329</span>
+
+                        <button class="button--flex product__button">
+                            <a href="#ToOrder"><i class="ri-shopping-bag-line" id="colour" ></i></a>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <a href="#ToOrder"><img src="img/product9.png" alt="" class="product__img"></a>
+
+                        <h3 class="product__title">YHmall plant</h3>
+                        <span class="product__price">Rs:79</span>
+
+                        <button class="button--flex product__button">
+                            <a href="#ToOrder"><i class="ri-shopping-bag-line" id="colour" ></i></a>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <a href="#ToOrder"><img src="img/product10.png" alt="" class="product__img"></a>
+
+                        <h3 class="product__title">Artificial plant1</h3>
+                        <span class="product__price">Rs:245</span>
+
+                        <button class="button--flex product__button">
+                            <a href="#ToOrder"><i class="ri-shopping-bag-line"  id="colour"></i></a>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <a href="#ToOrder"><img src="img/product11.png" alt="" class="product__img"></a>
+
+                        <h3 class="product__title">Bananaleaftype4</h3>
+                        <span class="product__price">Rs:219</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <a href="#ToOrder"><img src="img/product12.png" alt="" class="product__img"></a>
+
+                        <h3 class="product__title">Brain leaf plant</h3>
+                        <span class="product__price">Rs:238</span>
+
+                        <button class="button--flex product__button">
+                            <a href="#ToOrder"><i class="ri-shopping-bag-line" id="colour" ></i></a>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <a href="#ToOrder"><img src="img/product13.png" alt="" class="product__img"></a>
+
+                        <h3 class="product__title">Money plant pink</h3>
+                        <span class="product__price">Rs:299</span>
+
+                        <button class="button--flex product__button">
+                            <a href="#ToOrder"><i class="ri-shopping-bag-line" id="colour" ></i></a>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <a href="#ToOrder"><img src="img/product14.png" alt="" class="product__img"></a>
+
+                        <h3 class="product__title">Aloevera type3</h3>
+                        <span class="product__price">Rs:175</span>
+
+                        <button class="button--flex product__button">
+                            <a href="#ToOrder"><i class="ri-shopping-bag-line" id="colour" ></i></a>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <a href="#ToOrder"><img src="img/product15.png" alt="" class="product__img"></a>
+
+                        <h3 class="product__title">Hangking plant1</h3>
+                        <span class="product__price">RS:349</span>
+
+                        <button class="button--flex product__button">
+                            <a href="#ToOrder"><i class="ri-shopping-bag-line" id="colour" ></i></a>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <a href="#ToOrder"><img src="img/product16.png" alt="" class="product__img"></a>
+
+                        <h3 class="product__title">FAUX plant</h3>
+                        <span class="product__price">Rs:179</span>
+
+                        <button class="button--flex product__button">
+                            <a href="#ToOrder"><i class="ri-shopping-bag-line" id="colour" ></i></a>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <a href="#ToOrder"><img src="img/product17.png" alt="" class="product__img"></a>
+
+                        <h3 class="product__title">FEJKA artificial potted plant</h3>
+                        <span class="product__price">Rs:399</span>
+
+                        <button class="button--flex product__button">
+                            <a href="#ToOrder"><i class="ri-shopping-bag-line" id="colour" ></i></a>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <a href="#ToOrder"><img src="img/product18.png" alt="" class="product__img"></a>
+
+                        <h3 class="product__title">Goose plant</h3>
+                        <span class="product__price">Rs:499</span>
+
+                        <button class="button--flex product__button">
+                            <a href="#ToOrder"><i class="ri-shopping-bag-line" id="colour" ></i></a>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <a href="#ToOrder"><img src="img/product19.png" alt="" class="product__img"></a>
+
+                        <h3 class="product__title">Goose plant3</h3>
+                        <span class="product__price">Rs:379</span>
+
+                        <button class="button--flex product__button">
+                            <a href="#ToOrder"><i class="ri-shopping-bag-line" id="colour" ></i></a>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <a href="#ToOrder"><img src="img/product20.png" alt="" class="product__img"></a>
+
+                        <h3 class="product__title">Hanging flower Plant</h3>
+                        <span class="product__price">Rs:529</span>
+
+                        <button class="button--flex product__button">
+                            <a href="#ToOrder"><i class="ri-shopping-bag-line" id="colour" ></i></a>
+                        </button>
+                    </article>
+                    
+                </div>
+            </section>
+            
+                 
+            
+                 <section class="Order section container" id="ToOrder">
+                   
+
+                    <h1 style="text-align:center">Make your order here</h1>
+
+                    <form class="content">
+                        <br>
+                        <br>
+                        <br>
+                        <div>
+                            <input type="text" id="Name" placeholder="First Name" required>
+                            <input type="text" id="Name" placeholder="Last Name" required>
+                            <br>
+                            <br>
+
+                             
+                        <input type="email" id="add" placeholder="Email" required>
+                       
+<br>
+<br>
+<input type="Date" id="Date" placeholder="Date" required>
+<input type="Time" id="Time" placeholder="Time" required>
+<br>
+<br>
+                        
+
+                        <input type="text" id="add" placeholder="Street No." required>
+                        <br>
+<br>
+                        <input type="text" id="add" placeholder="Door NO." required>
+                        <br><br>
+                        <textarea id="add" placeholder="Address" required></textarea>
+                         <br><br>
+                        <input type="text" id="add" placeholder="City" required>
+                        <br><br>
+                        <input type="text" id="add" placeholder="Postal" required>
+                        <br><br>
+
+                        <input type="number" id="add" placeholder="Pincode" required>
+                        <br>
+                        <br>
+                        <input type="text" id="add" placeholder="state" required>
+                        <br>
+                        <br>
+   <br>
+                        <input type="radio" name="gender" id="">
+                        <label for="small">Small</label>
+                        <input type="radio" name="gender" id="">
+                        <label for="Medium">Medium</label>
+                        <input type="radio" name="gender" id="">
+                        <label for="Big">Big</label>
+                        <br>
+
+                            <select id="Products" required>
+                                <option>Select option</option>
+                                <option>caticus plant</option>
+                                <option>Succulent Plant</option>
+                                <option>Aloe vera type2</option>
+                                <option>Hanging flower Plant</option>
+                                <option>Goose plant3</option>
+                                <option>Bananaleaftype4</option>
+                                <option>Cactus Plant</option>
+                                <option>Aloe Vera Plant</option>
+                                <option>Goose plant</option>
+                                <option>YHmall plant</option>
+                                <option>Decorative plant1</option>
+                                <option>artificial potted plant</option> 
+                            </select>
+                            
+                            <input type="number" id="quantity" placeholder="Quantity" required>
+                            <br>
+                            <br>
+
+                        <button type="submit" onclick="order()">Submit your order</button>
+                    </form>
+                </section><br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+    
+            <section class="questions section" id="faqs">
+                <h2 class="section__title-center questions__title container">
+                    Some common questions <br> were often asked
+                </h2>
+
+                <div class="questions__container container grid">
+                    <div class="questions__group">
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    My flowers are falling off or dying?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Most flower drops happen due to a lack of pollination. You can notice this, especially in blooms. If some buds around your garden are blooming and others fall off, it’s because they didn’t get pollinated.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    What causes leaves to become pale?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Moreover, stems and leaves become pale in color, usually white or yellow. 
+                                    The lack of chlorophyll causes the dark-grown plant turn pale in color. Chlorophyll is the pigment in leaves that makes them green.
+                                     A condition in which leaves produce insufficient chlorophyll is called chlorosis.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    What causes brown crispy leaves?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Plant leaves turn brown and crispy for a variety of reasons. 
+                                    Toxic water, PH, Salt accumulation in soil, humidity issues, fertilizers and watering practices can all cause brown leaves on plants. This post will cover them all and show you how to fix them. Reasons Plants get Brown Crispy Leaves. 
+                                    Leaf browning can occur for a variety of reasons.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="questions__group">
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    How do i choose a plant?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Choosing Plants Based on Garden Conditions Work with the space you have available. 
+                                    Plant large and fast-growing specimens if you have lots of space. Try container gardening if ground space is limited. Select plants that are suited to the soil at your growing site. 
+                                    Observe the light levels in your garden.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    How do I change the pots?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Instead, refresh potted plants by replacing a portion of the existing potting mix with a combination of fresh, healthy materials. Remove about a third of the existing potting mix, along with any clumps or remaining plant roots. 
+                                    Sprinkle a few handfuls of perlite over the old potting mix
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Why are gnats flying around my plant?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Gnats are tiny flying insects with a lifespan of four months. 
+                                    The primary reason that causes gnats to appear is over-watering houseplants. Because gnats feed on decayed plant parts, it’s best to prune your plants regularly. 
+                                    If you wish to get rid of gnats naturally, try using apple cider vinegar or soil covers.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        
+              <section class="contact section container" id="contact">                
+                <div class="contact__container grid">
+                    <div class="contact__box">
+                        <h2 class="section__title">
+                            Reach out to us today <br> via any of the given <br> information
+                        </h2>
+
+                        <div class="contact__data">
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">Call us for instant support</h3>
+                                <span class="contact__description">
+                                    <i class="ri-phone-line contact__icon"></i>
+                                    +999 888 777
+                                </span>
+                            </div>
+
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">Write us by mail</h3>
+                                <span class="contact__description">
+                                    <i class="ri-mail-line contact__icon"></i>
+                                   tdheena4@gmail.com
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                        
+                    <form action="mailto:tdheena4@gmail.com" class="contact__form">
+                        <div class="contact__inputs">
+                            <div class="contact__content">
+                                <input type="email" placeholder=" " class="contact__input">
+                                <label for="" class="contact__label">Email</label>
+                            </div>
+
+                            <div class="contact__content">
+                                <input type="text" placeholder=" " class="contact__input">
+                                <label for="" class="contact__label">Subject</label>
+                            </div>
+
+                            <div class="contact__content contact__area">
+                                <textarea name="message" placeholder=" " class="contact__input"></textarea>                              
+                                <label for="" class="contact__label">Message</label>
+                            </div>
+                        </div>
+                        <button style ="text-align:center" class="button button--flex" ype="submit" onclick="mail()">Send Message
+                          <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+                    </form>
+                </div>
+            </section>
+
+        </main>
+
+        
+        <footer  class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">
+                        <i class="ri-leaf-line footer__logo-icon"></i> Envirogreen
+                    </a>
+
+                    <h3 class="footer__title">
+                        Subscribe to our newsletter <br> to stay update
+                    </h3>
+
+                    <div class="footer__subscribe">
+                        <input type="email" placeholder="Enter your email" class="footer__input">
+
+                        <button class="button button--flex footer__button">
+                            Subscribe
+                            <i class="ri-arrow-right-up-line but
+                            ton__icon"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Our Address</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">12,saibaba street,shevapet</li>
+                        <li class="footer__information">salem- 636002</li>
+                        <li class="footer__information">944-3697-735</li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Contact Us</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">+919443697735</li>
+                        
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/" class="footer__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="mailto:tdheena4@gmail.com" class="footer__social-link">
+                                <i class="ri-mail-line"></i>
+                            </a>
+                            <a href="https://www.whatsapp.com/" class="footer__social-link">
+                                <i class="ri-whatsapp-fill"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/menmoli-s-t-0021a620b" class="footer__social-link">
+                                <i class="ri-linkedin-fill"></i>
+                            </a>
+                            <a href="https://ri-telegram-fill.com/" class="footer__social-link">
+                                <i class="ri-telegram-fill"></i>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">
+                        We accept all credit and debit cards
+                    </h3>
+
+                    <div class="footer__cards">
+                        <img src="img/card1.png" alt="" class="footer__card">
+                        <img src="img/card2.png" alt="" class="footer__card">
+                        <img src="img/card3.png" alt="" class="footer__card">
+                        <img src="img/card4.png" alt="" class="footer__card">
+                    </div>
+                </div>
+            </div>
+
+            <p class="footer__copy"><B>Thankyou for visiting this website.Make a green environment.<br>visit Again</B></p>
+        </footer >
+        
+       
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class="ri-arrow-up-fill scrollup__icon"></i>
+        </a>
+<script src="scrollreveal.min.js"></script>
+        <script src="plants/js/main.js"></script>
+        <script>
+            /*function order()
+            {   
+                let a=document.getElementById('Name').value;
+                let b=document.getElementById('Date').value;
+                let c=document.getElementById('Time').value;
+                let d=document.getElementById('quantity').value;
+                let e=document.getElementById('add').value;
+                let f=document.getElementById('products').value;
+                let g=document.getElementById('number').value;
+                
+
+                if(a==''||b==''||c==''||d==''||e==''||f==''||g=='')
+                {
+                    alert("Fill all the feild Requied")
+                }
+                else
+                {
+                    alert("Order submitted successfully")
+                }
+            }*/
+            function order()
+            {   
+                let a=document.getElementById('quantity').value;
+                let b=document.getElementById('add').value;
+                let d=document.getElementById('products').value;
+
+                if(a==''||b==''||d=='')
+                {
+                    alert("Fill all the feild Requied")
+                }
+                else
+                {
+                    alert("Order submitted successfully")
+                }
+            }
+        </script>
+    </body>
+</html>
